@@ -46,7 +46,7 @@ The standard post-processing pipeline in most QKD protocols consists of:
 The following figure illustrates the post-processing steps in a typical QKD protocol, showing the flow from quantum transmission to the final secure key:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SRB-TYAGI/QKD-project/main/Images/QKD%20Post-Processing%20Workflow.png" alt="QKD Post-Processing Workflow" width="600"/>
+  <img src="https://raw.githubusercontent.com/Github-Aditya-Thakur/QKD-Post-Processing-/main/Images/QKD%20Post-Processing%20Workflow.png" alt="QKD Post-Processing Workflow" width="600"/>
 </p>
 
 ## III. C/C++ Implementation
@@ -80,8 +80,8 @@ Each phase ensures the **security, integrity, and synchronization** of the final
 ### 🔷 Execution Flow & Output Analysis
 
 <p align="center">
-  <img src="https://github.com/SRB-TYAGI/QKD-project/blob/main/Images/Picture1.png" alt="" width="600"/>
-   <img src="https://github.com/SRB-TYAGI/QKD-project/blob/main/Images/Picture2.png" alt="" width="600"/>
+  <img src="https://github.com/Github-Aditya-Thakur/QKD-Post-Processing-/blob/main/Images/Picture1.png" alt="" width="600"/>
+   <img src="https://github.com/Github-Aditya-Thakur/QKD-Post-Processing-/blob/main/Images/Picture2.png" alt="" width="600"/>
 </p>
 
 ### 🔷 Final Conclusion
@@ -106,7 +106,7 @@ Each phase ensures the **security, integrity, and synchronization** of the final
 
 ### 🔗 Full C/C++ Code Repository
 The complete source code for the C++ simulation is available here:  
-👉 [QKD C++ Post-Processing Code](https://github.com/SRB-TYAGI/QKD-project/tree/main/C%2B%2B_Simulation)
+👉 [QKD C++ Post-Processing Code](https://github.com/Github-Aditya-Thakur/QKD-Post-Processing-/tree/main/C%2B%2B_Simulation)
 
 
 ---
@@ -165,12 +165,12 @@ To enable **real-time high-throughput QKD**, sifting is implemented in hardware 
 
 
 ### V. RTL Schematic  
-![RTL Schematic of Sifting Block](https://github.com/SRB-TYAGI/QKD-project/blob/main/Images/Rtl%20schematic.png)
+![RTL Schematic of Sifting Block](https://Github-Aditya-Thakur/QKD-Post-Processing-/blob/main/Images/Rtl%20schematic.png)
 
 ---
 
 ### VI	Sifting Hardware Output
-![RTL Schematic of Sifting Block](https://github.com/SRB-TYAGI/QKD-project/blob/main/Images/Sifting%20Hardware%20output.png)
+![RTL Schematic of Sifting Block](https://Github-Aditya-Thakur/QKD-Post-Processing-/blob/main/Images/Sifting%20Hardware%20output.png)
 
 ---
 ### VII. Output & Waveform  
@@ -178,13 +178,13 @@ To enable **real-time high-throughput QKD**, sifting is implemented in hardware 
 - **Simulation Output:** Shows sifted key bits stored in memory.  
 - **Waveform:** Confirms FSM transitions, valid bit storage, and QBER computation.  
 
-![Sifting Waveform](https://github.com/SRB-TYAGI/QKD-project/blob/main/Images/Ouptut%20waveform.png)
+![Sifting Waveform](https://github.com/Github-Aditya-Thakur/QKD-Post-Processing-/blob/main/Images/Ouptut%20waveform.png)
 
 ---
 
 ### VIII. Full Verilog Source  
 The complete Verilog implementation of the **Sifting Block** is available here:  
-👉 [Verilog HDL for QKD Sifting](https://github.com/SRB-TYAGI/QKD-project/tree/main/2.Sifting%20Block)
+👉 [Verilog HDL for QKD Sifting](https://github.com/Github-Aditya-Thakur/QKD-Post-Processing-/tree/main/2.Sifting%20Block)
 
 
 ---
@@ -250,7 +250,7 @@ To achieve real-time performance, PA is implemented in **FPGA/ASIC**.
 - Parallel butterfly units in NTT  
 - Bit-slicing & pipelining for speed
 
-  <img src="https://github.com/SRB-TYAGI/QKD-project/blob/main/Images/Picture4.png" alt="" width="600"/> 
+  <img src="https://github.com/Github-Aditya-Thakur/QKD-Post-Processing-/blob/main/Images/Picture4.png" alt="" width="600"/> 
 
 ---
 
@@ -321,17 +321,17 @@ Time fi_0 fi_1 => Fi_0 Fi_1
 ---
 **RTL Schematic:**  
 
-![NTT RTL](https://github.com/SRB-TYAGI/QKD-project/blob/main/Images/RTL%20Schematic%20of%2022%20NTT%20Block.png)
+![NTT RTL](https://github.com/Github-Aditya-Thakur/QKD-Post-Processing-/blob/main/Images/RTL%20Schematic%20of%2022%20NTT%20Block.png)
 
 ---
 **Output:**  
 
-![NTT Waveform](https://github.com/SRB-TYAGI/QKD-project/blob/main/Images/output%20of%20pa%20block.png)
+![NTT Waveform](https://github.com/Github-Aditya-Thakur/QKD-Post-Processing-/blob/main/Images/output%20of%20pa%20block.png)
 
 ---
 **Waveform:**  
 
-![NTT Waveform](https://github.com/SRB-TYAGI/QKD-project/blob/main/Images/waveform%20of%20pa%20block.png)
+![NTT Waveform](https://github.com/Github-Aditya-Thakur/QKD-Post-Processing-/blob/main/Images/waveform%20of%20pa%20block.png)
 
 
 ---
@@ -382,7 +382,7 @@ This work demonstrates a foundational step toward **hardware acceleration of QKD
 - Provides **real-time hardware acceleration** for QKD post-processing  
 
 👉 **Full Verilog source code is available here:**  
-[🔗 Verilog HDL for QKD Privacy Amplification](https://github.com/SRB-TYAGI/QKD-project/tree/main/3.Privacy%20Amplification%20Block)
+[🔗 Verilog HDL for QKD Privacy Amplification](https://github.com/Github-Aditya-Thakur/QKD-Post-Processing-/tree/main/3.Privacy%20Amplification%20Block)
 
 ---
 
